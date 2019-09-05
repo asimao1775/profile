@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Titillium+Web:200,300,400,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+
+background-color:rgb(240,240,240);
+font-family: 'Playfair Display', serif;
+color: #757575
+font-size: 18px;
+line-height: 1.15;
+
+}
+
+h1 {
+
+  color: #000172;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size:  40px;
+  font-heigth: 2;
+  text-align: center
+
+}
+
+h2 {
+
+  color:#ED5107;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  font-heigth: 1.5;
+
+}
+
+.p-justify {
+
+  text-align: justify;
+}
+
+a {
+
+  color: #02383B;
+  text-decoration: none;
+}
+
+a:hover {
+
+  color:#000172;
+
+}
+
+.container {
+
+  width: 900px;
+  margin: 0 auto;
+
+}
+
+.card-white {
+
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px auto
+
+}
+
+.img-circle {
+  width: 300px;
+  border-radius: 50%;
+
+}
+
+.img-center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.link-center {
+
+  text-align: center;
+}
+
+.btn-orange {
+  background-color: #ED5107;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 200px;
+
+}
+
+.list-inline {
+
+  list-style: none;
+  text-align: center;
+  padding: 0;
+
+}
+
+.list-inline li {
+
+  display: inline-block;
+}
+
+.social-icon {
+
+  font-size: 32px;
+  color: #ED5107;
+  margin: 8px 24px;
+}
+
+@media (max-width : 812px) {
+
+  .container{
+
+    width: 375px;
+
+   }
+}
